@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  web:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    container_name: app_ctf
+    ports:
+      - 45000:45000
